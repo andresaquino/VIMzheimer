@@ -1,0 +1,94 @@
+//
+  HTML File
+  vim: ts=2 sw=2 sts=2 et si ai:
+  (c) 2018, Andrés Aquino <inbox@andresaquino.sh>
+
+doctype html
+html
+  head
+    title Vim cheatsheet
+  body
+    table.cmdsTable
+      thead
+        tr
+          th Options
+          th Working with multiple files
+      tbody
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd s
+          td Split window (horizontal)
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd j
+          td Move to the window below (in horizontal split)
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd k
+          td Move to the window above (in horizontal split)
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd w
+          td Switch window (horizontal and vertical split)
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd v
+          td Split window vertically
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd h
+          td Move to the left window (in vertical split)
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd l
+          td Move to the right window (in vertical split)
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd H
+          td Change mode view to vertical split (w/+2 buffer) and move to left side
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd L
+          td Change mode view to vertical split (w/+2 buffer) and move to rigth side
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd J
+          td Change mode view to horizontal split (w/+2 buffer) and move top
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd K
+          td Change mode view to horizontal split (w/+2 buffer) and move bottom
+        tr
+          td
+            kbd :windo 
+            | +
+            kbd set bindscroll
+          td Execute bindscroll command in each window.
+        tr
+          td
+            kbd Ctrl + w
+            | +
+            kbd q
+          td Quit window

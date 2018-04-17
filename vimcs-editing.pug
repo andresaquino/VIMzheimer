@@ -1,0 +1,45 @@
+//
+  HTML File
+  vim: ts=2 sw=2 sts=2 et si ai:
+  (c) 2018, Andrés Aquino <inbox@andresaquino.sh>
+
+doctype html
+html
+  head
+    title Vim cheatsheet
+  body
+    table.cmdsTable
+      thead
+        tr
+          th Options
+          th Editing files
+      tbody
+        tr
+          td
+            kbd :e file
+          td Edit a file in a new buffer
+        tr
+          td
+            kbd vim file
+          td Edit a file in a new buffer
+        tr
+          td
+            kbd :sp file
+          td Open a file in a new buffer and split window (horizontally)
+        tr
+          td
+            kbd vim -o file1 file2 .. fileN
+          td Open all files and split window (horizontally)
+        tr
+          td
+            kbd :vsp file
+          td Open a file in a new buffer and split window (vertically)
+        tr
+          td
+            kbd vim -O file1 file2 .. fileN
+          td Open all files and split window (vertically)
+        tr
+          td
+            kbd :ls
+          td List all open buffers
+
